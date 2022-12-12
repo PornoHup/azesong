@@ -11,7 +11,7 @@ from TamilBots.sql.chat_sql import add_chat_to_db
 start_text = """
 👋 Salam [{}](tg://user?id={}),
 
-\n\n𝗜 Mən 🎸Aze Song 𝐁𝐨𝐭[🎶](https://telegra.ph/file/6cb884fe1cb943ec12df1.mp4)
+\n\n𝗜 Mən 🎸TMT Song 𝐁𝐨𝐭[🎶](https://telegra.ph/file/6cb884fe1cb943ec12df1.mp4)
 
 I'M Music Bot By @TMTSongbot 🤖
 
