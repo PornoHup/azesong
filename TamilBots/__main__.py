@@ -13,7 +13,7 @@ start_text = """
 
 \n\n𝗜 Mən 🎸Aze Song 𝐁𝐨𝐭[🎶](https://telegra.ph/file/6cb884fe1cb943ec12df1.mp4)
 
-I'M Music Bot By @AzeSongbot 🤖
+I'M Music Bot By @TMTSongbot 🤖
 
 𝗦𝗲𝗻𝗱 𝗧𝗵𝗲 𝗡𝗮𝗺𝗲 𝗢𝗳 𝗧𝗵𝗲 𝗦𝗼𝗻𝗴 𝗬𝗼𝘂 𝗪𝗮𝗻𝘁... 😍🥰🤗
 
@@ -36,9 +36,9 @@ async def start(client, message):
     name = message.from_user["first_name"]
     if message.chat.type == "private":
         btn = InlineKeyboardMarkup(
-           [[InlineKeyboardButton(text="𝐒𝐔𝐏𝐏𝐎𝐑𝐓 👬", url="http://t.me/RiyaddBlog"),
+           [[InlineKeyboardButton(text="𝐒𝐔𝐏𝐏𝐎𝐑𝐓 👬", url="http://t.me/RiyaddTeam"),
              InlineKeyboardButton(
-                        text="𝐀𝐃𝐃 𝐌𝐄 🤗", url="http://t.me/AzeSongBot?startgroup=true"
+                        text="𝐀𝐃𝐃 𝐌𝐄 🤗", url="http://t.me/TMTSongBot?startgroup=true"
                     )
                 ]
             ]
@@ -59,5 +59,5 @@ async def help(client, message):
 
 OWNER_ID.append(1492186775)
 app.start()
-LOGGER.info("AzeSongBot Is Now Working🤗🤗🤗")
+LOGGER.info("TMTSongBot Is Now Working🤗🤗🤗")
 idle()
