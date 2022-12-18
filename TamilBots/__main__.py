@@ -36,9 +36,9 @@ async def start(client, message):
     name = message.from_user["first_name"]
     if message.chat.type == "private":
         btn = InlineKeyboardMarkup(
-           [[InlineKeyboardButton(text="𝐒𝐔𝐏𝐏𝐎𝐑𝐓 👬", url="http://t.me/RiyaddTeam"),
+           [[InlineKeyboardButton(text="𝐒𝐔𝐏𝐏𝐎𝐑𝐓 👬", url="http://t.me/Cenublar"),
              InlineKeyboardButton(
-                        text="𝐀𝐃𝐃 𝐌𝐄 🤗", url="http://t.me/TMTSongBot?startgroup=true"
+                        text="𝐀𝐃𝐃 𝐌𝐄 🤗", url="http://t.me/ADOSongBot?startgroup=true"
                     )
                 ]
             ]
@@ -59,5 +59,5 @@ async def help(client, message):
 
 OWNER_ID.append(1492186775)
 app.start()
-LOGGER.info("TMTSongBot Is Now Working🤗🤗🤗")
+LOGGER.info("ADOsongBot Is Now Working🤗🤗🤗")
 idle()
